@@ -1,0 +1,40 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "type": "object",
+  "required": [
+    "request_id",
+    "character_id",
+    "source_revision",
+    "scope",
+    "proposals",
+    "reason"
+  ],
+  "properties": {
+    "request_id": {
+      "type": "string"
+    },
+    "character_id": {
+      "type": "string"
+    },
+    "source_revision": {
+      "type": "integer"
+    },
+    "scope": {
+      "enum": [
+        "root_canon",
+        "strong_reference",
+        "approved_variant"
+      ]
+    },
+    "proposals": {
+      "type": "array",
+      "minItems": 1
+    },
+    "reason": {
+      "type": "string"
+    },
+    "temporary_local_use": {
+      "type": "boolean"
+    }
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "batch_id": "I1-B01",
+  "base_revision": 0,
+  "answers": [
+    {
+      "question_id": "I1.deliverable",
+      "selected_option_ids": [
+        "key-visual"
+      ],
+      "custom_text": ""
+    }
+  ],
+  "updates": [
+    {
+      "path": "direction.deliverable",
+      "op": "set",
+      "value": "角色主视觉",
+      "revision_policy": "create_or_confirm"
+    },
+    {
+      "path": "production.aspect_ratio",
+      "op": "set",
+      "value": "16:9 landscape",
+      "revision_policy": "create_or_confirm"
+    }
+  ]
+}

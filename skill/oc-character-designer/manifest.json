@@ -1,0 +1,130 @@
+{
+  "package": "oc-character-designer",
+  "version": "3.1.2",
+  "files": [
+    {
+      "path": "CHANGELOG.md",
+      "sha256": "b1e2073db7518cf40b3d324f5fc65412c41ede4e14e3a63cb36d18a8cf8cbca9"
+    },
+    {
+      "path": "README.md",
+      "sha256": "caecda6d470c05318fbadf56f2d441091b71f035758965946e6d99fe5b6d95d5"
+    },
+    {
+      "path": "SKILL.md",
+      "sha256": "67f5025053b7460f3ed95f77d7806e27a3f5c7b9e72a75a5fcb1bd82e1e08417"
+    },
+    {
+      "path": "VERSION",
+      "sha256": "905360921e63f419d6a111dd3216bf28402f367ab9aa69444d80e97419600d80"
+    },
+    {
+      "path": "examples/harbor-courier-canon.json",
+      "sha256": "8b0a07d503d3dec62f3237e42dfab2602ffe90b2f62f8d16626e434ed8986dda"
+    },
+    {
+      "path": "governance/ARCHITECTURE.md",
+      "sha256": "ece901ff6cb29fc64ee3a9522026f2730b2eb6d727e605e383ca6fc9628d7b2d"
+    },
+    {
+      "path": "governance/MODULE_REGISTRY.yaml",
+      "sha256": "1122fe5053bf8794ccaf9bab975dca26563d5a6a0cddf598bdd8f50a664f79ec"
+    },
+    {
+      "path": "governance/QUALITY_GATES.md",
+      "sha256": "a7ebdde921595b0c1a384002c1146f31e6c47bd45ab5120da51bb1d61893e38f"
+    },
+    {
+      "path": "governance/VERSIONING.md",
+      "sha256": "6af62032079a6dc8507e57c4d660a1bb565421019e017a7adcb14feb7d78ce0f"
+    },
+    {
+      "path": "references/annotation-system.md",
+      "sha256": "f0388d96f9271f88ec32d9ff6e1acc20e331ffedde4258f1c09afb2c19a59726"
+    },
+    {
+      "path": "references/ask-a-question-ui.md",
+      "sha256": "7aa9237562a14d2b626f68c7166ac7d60e5e4dd86f23ba74752ee90eb516c482"
+    },
+    {
+      "path": "references/body-face-canon.md",
+      "sha256": "7739097bae26c2905e56395660f7283ca0862eed98707c035388e2b5a46253de"
+    },
+    {
+      "path": "references/character-bible-content-design.md",
+      "sha256": "c09186ec2b50700c804b7c28c0f42a21a04cbd794762e6e7ec67fe035c6d7b0c"
+    },
+    {
+      "path": "references/filesystem-persistence.md",
+      "sha256": "6cb3ad301c83e24e2dd698a0b8b3d0955ea5c8c4a733731253ffa5a238844cfb"
+    },
+    {
+      "path": "references/index-chapter-canon.md",
+      "sha256": "93081cf78d6b0910b462e4360905b53bfcbb202fa2c722a2a8b8cd87f39b7a59"
+    },
+    {
+      "path": "references/native-image-text-vs-pdf-typesetting.md",
+      "sha256": "b2807efe3b946e44e967c0d24369e0b5f8005e126586a49651d3c3e51439e07b"
+    },
+    {
+      "path": "references/prompt-templates.md",
+      "sha256": "29a12f46d8eb988dea1d3cff50ff390c5c98b047cd11a61fbb532b111a54efeb"
+    },
+    {
+      "path": "references/questionnaire.md",
+      "sha256": "0c12059cff4fee3c1301cfd4f080fbe9ee9fe124960a3d83750083396177b402"
+    },
+    {
+      "path": "references/setting-sheet-layout-system.md",
+      "sha256": "09731dfdae465b5b5ea3d5bd376b7820c3e0d1b7c32456b2f7ad7bca3661efbc"
+    },
+    {
+      "path": "references/staged-interview.md",
+      "sha256": "c39351404609a0f92a8ccf8b680249e08c62673049169f4f2dbab573724f8997"
+    },
+    {
+      "path": "schemas/answer-batch.schema.json",
+      "sha256": "9282d86de6394df0aed11ef7fe26430bfb1090e7b507d5d1e3fdda8a48363005"
+    },
+    {
+      "path": "schemas/oc-canon-v3.1.schema.json",
+      "sha256": "720f5874db3dd76bf2cddb2f9c318be247e4723495c0b664458cd96dde1dcb73"
+    },
+    {
+      "path": "schemas/question-batch.schema.json",
+      "sha256": "bcc3ef4180693fdd86286417343b279e5e25506fd536f120d95b48aa4b7d6ca4"
+    },
+    {
+      "path": "schemas/sheet-page.schema.json",
+      "sha256": "bdba51842d99a609b9077256d649734a3519755db4f4b8d7465aba3d2f46e93f"
+    },
+    {
+      "path": "scripts/build_handoff.py",
+      "sha256": "eaae811b0eece28ae7371101297bc22da1edff4a546644e6530535b2cd6d554f"
+    },
+    {
+      "path": "scripts/oc_workspace.py",
+      "sha256": "9be75af5deede5e26cc7266dd10be4f59df99f0e47d38296553ab06adcd4aace"
+    },
+    {
+      "path": "scripts/release_guard.py",
+      "sha256": "4682e634c8c2393690f0ab65d3eecaa939c4e507d6a9e4ad8c02cabdda780548"
+    },
+    {
+      "path": "scripts/render_character_bible.py",
+      "sha256": "0b373eb91bfed38f916886a6a6e5e57499d07980b997fe1e0ec95e742da3cfb4"
+    },
+    {
+      "path": "templates/character-bible/data/blank-project.json",
+      "sha256": "cbc3a3069157b75d0627b545b7363e9005ea5de8562e920c610fe53573b58579"
+    },
+    {
+      "path": "templates/character-bible/data/standard-pages.json",
+      "sha256": "9167de5b8d9033012af4cea13470864a9004d6e7447b7ccf8adc36a15b17b2d6"
+    },
+    {
+      "path": "templates/oc-workspace/canon.template.json",
+      "sha256": "a50de8b885ab376c6aff3e06813904ad1f89124c5a5d90ee6fcb288d7f69e637"
+    }
+  ]
+}

@@ -1,0 +1,285 @@
+{
+  "name": "oc-illustration-director",
+  "version": "2.0.0",
+  "files": [
+    {
+      "path": "CHANGELOG.md",
+      "sha256": "bfe73e4549b89ff46655cfb222b7d42f021281a8cf223d5730b108ac6e97b4b2",
+      "size": 568
+    },
+    {
+      "path": "README.md",
+      "sha256": "4812be0915a5cd0a8abccce2ecdeba5dda4a4d2853d0596239a0af2d84b48c47",
+      "size": 1559
+    },
+    {
+      "path": "SKILL.md",
+      "sha256": "cf9a8a547375031db339334b9fefc6123f603b90a10774f55a89f125828e6711",
+      "size": 3527
+    },
+    {
+      "path": "VERSION",
+      "sha256": "c28fcca53637bc88e124af1725df13cb98c69dedefd62fb3cdbe1cdb6b760624",
+      "size": 6
+    },
+    {
+      "path": "adapters/chatgpt-images.md",
+      "sha256": "c9cca99492e57d29440e2c7fb2737682d10400b5dcb1cd1a3e1a91dba5571caa",
+      "size": 239
+    },
+    {
+      "path": "adapters/flux-sdxl.md",
+      "sha256": "f67ac8cbd002cb9f92ed66a0a0c21de4b0892a7f98313d6872737b247a8d789c",
+      "size": 247
+    },
+    {
+      "path": "examples/I1-B01.answers.json",
+      "sha256": "ab9ac615c78d149ceb03dd953645ff31ac6e9a33f1c5f7fcd5e8e7610a6d6be6",
+      "size": 525
+    },
+    {
+      "path": "examples/I1-B01.questions.json",
+      "sha256": "d3c4f3733716dbbb7c31204ee905b641e231875e43557a9a60dda2be886989a5",
+      "size": 839
+    },
+    {
+      "path": "examples/harbor-courier-canon.json",
+      "sha256": "68f9a297c461ef04c798efb7d83a4d28c2f32c1094a09257489c1734cfa8820a",
+      "size": 4564
+    },
+    {
+      "path": "examples/harbor-courier-handoff/approved-variants.json",
+      "sha256": "06dbc0181ea2a7b2d61abbefa29f37be9b09d25583dd4d48fe0cd3bac9a9a909",
+      "size": 93
+    },
+    {
+      "path": "examples/harbor-courier-handoff/consistency-lock.json",
+      "sha256": "05e7153a36e738bf79386217e8b2bbeccc8129454373cefedb48596e42e21a02",
+      "size": 43
+    },
+    {
+      "path": "examples/harbor-courier-handoff/reference-manifest.json",
+      "sha256": "3ff5f36c9d4b232659ddd88f4d22f3f01d313884e5a22190bda7a07a235333fa",
+      "size": 19
+    },
+    {
+      "path": "examples/harbor-courier-handoff/root-canon.json",
+      "sha256": "4ed5a6aa96a6864d00014efb93903a51f61eacb5de0599c1470e3845a051d290",
+      "size": 2432
+    },
+    {
+      "path": "examples/harbor-courier-handoff/strong-reference.json",
+      "sha256": "ffcffa9be497efb5a517f1aa8bdad03c26c77b0d732af024c99bca20ed101ee5",
+      "size": 1003
+    },
+    {
+      "path": "examples/harbor-courier-project/ACTIVE_CONTEXT.md",
+      "sha256": "28934938eedaf40e8e772990b37e1bae5a551c165fc39e538a085230ccf3c720",
+      "size": 2905
+    },
+    {
+      "path": "examples/harbor-courier-project/DIRECTOR_BRIEF.md",
+      "sha256": "a0604a8d33d97c0ef7765860378a7365c17d35ff68b1c94233aa28cfb4235c11",
+      "size": 483
+    },
+    {
+      "path": "examples/harbor-courier-project/INDEX.md",
+      "sha256": "a23cd24eca9450f379f3184c9c02dd34de2627e065595725e19195b0c5b3c473",
+      "size": 172
+    },
+    {
+      "path": "examples/harbor-courier-project/prompts/PROMPT_PACK.md",
+      "sha256": "74dd1cee8cc6477d5b44dfa1ca7e2d01fb7aeff2b690cdbaafbd2ad8cc955c4b",
+      "size": 3816
+    },
+    {
+      "path": "examples/harbor-courier-project/qa/QA_REPORT.md",
+      "sha256": "cf8ad546de44884ab3049d661d0cebfbe9b7563ddca7bdcf0b78656408d61737",
+      "size": 223
+    },
+    {
+      "path": "examples/harbor-courier-project/state/identity-contract.json",
+      "sha256": "0d81803c2ed05241c87dc63f5cae78ba9a627e14fe7beca2ee53c5431b49b0b6",
+      "size": 4070
+    },
+    {
+      "path": "examples/harbor-courier-project/state/project.json",
+      "sha256": "2a1daf6cf9290cd405e48d4ea421e1604380b6c7ed714cd0d54c17d353bdbb85",
+      "size": 1098
+    },
+    {
+      "path": "examples/upstream-change-request.json",
+      "sha256": "7a78c383f20749df24893142a1eccc58cf01d9828b3d29b39ae9ef9e813f7f00",
+      "size": 374
+    },
+    {
+      "path": "governance/ARCHITECTURE.md",
+      "sha256": "9080889daec364904375d6d12e29a6191d135bb449e835e7c2e55347fa8c0c0d",
+      "size": 953
+    },
+    {
+      "path": "governance/MODULE_REGISTRY.yaml",
+      "sha256": "797285645ebe2eca1a879b0135d2c4f94d732f08c28837cd46ab441f2642364b",
+      "size": 862
+    },
+    {
+      "path": "governance/QUALITY_GATES.md",
+      "sha256": "67c5c38c89b48a596285d8ed23fa981db9e97cf5f55d99609169c1af5b510c67",
+      "size": 1023
+    },
+    {
+      "path": "governance/decisions/ADR-001-upstream-authority.md",
+      "sha256": "cab196790ad2c7f734e3ed4dd9b2df9d04a55c392dc709dd6e1d511fbcc72b07",
+      "size": 441
+    },
+    {
+      "path": "governance/decisions/ADR-002-batched-transactions.md",
+      "sha256": "e4e1e1d1a3db8c57fe96231e61cb2224e1a9b4d537601416292ae5861c2b5b62",
+      "size": 239
+    },
+    {
+      "path": "modules/10-handoff-ingestion.md",
+      "sha256": "a2afcd31ac05da2697123b7ab721e37ed2b227d5995245ac2d34147c773b0595",
+      "size": 596
+    },
+    {
+      "path": "modules/20-illustration-interview.md",
+      "sha256": "63febd7986213379d42bce5fdb0171e3ea935b88343e485b53ec94c41364cc2a",
+      "size": 436
+    },
+    {
+      "path": "modules/30-direction.md",
+      "sha256": "0762ef78b8ef83dd5372d44ae27c43da40edf8afe90e44efb37c4a9d65f7c53f",
+      "size": 546
+    },
+    {
+      "path": "modules/40-prompt-compiler.md",
+      "sha256": "55af72d15583ae471f7e594bbf41f04cd2e299bde56fd3c9397590859dbd74e8",
+      "size": 510
+    },
+    {
+      "path": "modules/50-continuity.md",
+      "sha256": "93fe70ee39b6cc92ac2081d54a10642209105756074df7d40b2671b58f0cddd5",
+      "size": 359
+    },
+    {
+      "path": "modules/60-upstream-feedback.md",
+      "sha256": "987d16af20411fbb7dcccdeb6c630826429908eb5c9a3308946b84c9aec0864d",
+      "size": 432
+    },
+    {
+      "path": "modules/70-quality-release.md",
+      "sha256": "23400df9370ace02711b8307ff0e767ea6c68eab7566d9a409fdfa06e3dfb036",
+      "size": 371
+    },
+    {
+      "path": "references/ask-a-question-ui.md",
+      "sha256": "2616bd81c8e158a2e1138dced3d57cdb81011b779abf31e26e05753b6b14e3fc",
+      "size": 875
+    },
+    {
+      "path": "references/handoff-contract.md",
+      "sha256": "6d894fccd18eb941c19c65af5a4a18f2f37ae4ab5298fdc256be490ac1e8682c",
+      "size": 743
+    },
+    {
+      "path": "references/prompt-templates.md",
+      "sha256": "9f249670ccd25386715631a1214cba600e88cfa4ad72d0314a9beb15429897ec",
+      "size": 1764
+    },
+    {
+      "path": "references/questionnaire.md",
+      "sha256": "f39215e3f7fd77578d8434ff769f90fea71acc3b38bf12c648cf560336ddae24",
+      "size": 1511
+    },
+    {
+      "path": "references/staged-interview.md",
+      "sha256": "d7f0a25ae00684a923cab0758b57144dd3b06bf588d69a74793ff91c07ba2f67",
+      "size": 1814
+    },
+    {
+      "path": "references/style-profiles.yaml",
+      "sha256": "6689be36ef33683ec4fb8f06047dae88b6952804fce3b5c63b824368a24361f5",
+      "size": 2240
+    },
+    {
+      "sha256": "ee22da4ef00f19eb1820e3aa46e2b4ff4ca22a00356573ab34ea592fd5a27ffe",
+      "size": 1275
+    },
+    {
+      "path": "schemas/illustration-answer-batch.schema.json",
+      "sha256": "32766f23bea5e958a91f9eb8d33e293b8bd307bf95c3447435425e11fae861ed",
+      "size": 1013
+    },
+    {
+      "path": "schemas/illustration-handoff.schema.json",
+      "sha256": "2580540e254508aeb6b54c5a2602295f58cc86742b9b03b6fb8285ee3732cbd4",
+      "size": 1250
+    },
+    {
+      "path": "schemas/illustration-project.schema.json",
+      "sha256": "395e6f86024ea605c5b01233532b4d2d4a33416aa098dbebf26a3beb9bb5105e",
+      "size": 1562
+    },
+    {
+      "path": "schemas/illustration-question-batch.schema.json",
+      "sha256": "b56a9928381f26db22233b1bde413025c546600079bd0f7e85a042c16d32c59c",
+      "size": 1063
+    },
+    {
+      "path": "schemas/upstream-change-request.schema.json",
+      "sha256": "f05cf1353a852945d7bac56269e731e16b8a64e1ec3785dcc1466ecf0a47d66a",
+      "size": 687
+    },
+    {
+      "path": "scripts/build_handoff.py",
+      "sha256": "45cf01b0504f865dcb8e5cce6c596f1e4a110ecef605f8fefb760031161fd7e3",
+      "size": 2067
+    },
+    {
+      "path": "scripts/illustration_workspace.py",
+      "sha256": "87a4fe7440d49bc8476361285bff21f2c35a29af352959e2acb6e04962d55116",
+      "size": 12006
+    },
+    {
+      "path": "scripts/self_test.py",
+      "sha256": "c6b50a99dd3a4af9363f83838f39af5d120745d32957b65e85774c2ce5a586e5",
+      "size": 1373
+    },
+    {
+      "path": "templates/handoff/approved-variants.json",
+      "sha256": "e7e6b541d3a2456128dd52c6a0820e0e18e6da486873e0bf9e4d3cc094f10dfd",
+      "size": 77
+    },
+    {
+      "path": "templates/handoff/consistency-lock.json",
+      "sha256": "05e7153a36e738bf79386217e8b2bbeccc8129454373cefedb48596e42e21a02",
+      "size": 43
+    },
+    {
+      "path": "templates/handoff/reference-manifest.json",
+      "sha256": "f45e983d57cf86785795d9bdd6dd64ea2c8e125a11728031d426bc979acd5fb9",
+      "size": 120
+    },
+    {
+      "path": "workflows/local-edit.md",
+      "sha256": "fa941354155448b7b7d010daa4b5b6598b59418bde1876c245a40abf5d702254",
+      "size": 179
+    },
+    {
+      "path": "workflows/series.md",
+      "sha256": "4382890d37ead1e776f303181ed4928ab45c678fe87b418a25b38b54bb5b6d7a",
+      "size": 190
+    },
+    {
+      "path": "workflows/single-illustration.md",
+      "sha256": "bb6e8e502f72b664abab53ae75cd4c721141314c90609f8a80dd874d3af7b070",
+      "size": 161
+    },
+    {
+      "path": "workflows/variant-proposal.md",
+      "sha256": "9ccd3d2403ce99c155e4e56e7c776fb10e8b701c4fe774d1a26c213bc01bfa0f",
+      "size": 239
+    }
+  ]
+}

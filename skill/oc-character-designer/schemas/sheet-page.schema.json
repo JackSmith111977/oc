@@ -1,0 +1,45 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "sheet-page.schema.json",
+  "type": "object",
+  "required": [
+    "code",
+    "title",
+    "aspect_ratio",
+    "layout",
+    "blocks"
+  ],
+  "properties": {
+    "code": {
+      "type": "string"
+    },
+    "title": {
+      "type": "string"
+    },
+    "aspect_ratio": {
+      "enum": [
+        "16:9",
+        "3:2",
+        "4:3",
+        "2:1",
+        "4:5"
+      ]
+    },
+    "layout": {
+      "type": "string"
+    },
+    "blocks": {
+      "type": "array",
+      "items": {
+        "type": "object"
+      }
+    },
+    "annotations": {
+      "type": "array",
+      "items": {
+        "type": "object"
+      }
+    }
+  },
+  "additionalProperties": true
+}

@@ -1,0 +1,55 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "type": "object",
+  "required": [
+    "batch_id",
+    "base_revision",
+    "answers",
+    "updates"
+  ],
+  "properties": {
+    "batch_id": {
+      "type": "string"
+    },
+    "base_revision": {
+      "type": "integer"
+    },
+    "answers": {
+      "type": "array"
+    },
+    "updates": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": [
+          "path",
+          "op"
+        ],
+        "properties": {
+          "path": {
+            "type": "string"
+          },
+          "op": {
+            "enum": [
+              "set",
+              "append",
+              "remove",
+              "merge"
+            ]
+          },
+          "value": {},
+          "revision_policy": {
+            "enum": [
+              "create_or_confirm",
+              "revise"
+            ]
+          },
+          "expected_old": {},
+          "reason": {
+            "type": "string"
+          }
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,35 @@
+{
+  "batch_id": "I1-B01",
+  "base_revision": 0,
+  "stage": "I1",
+  "questions": [
+    {
+      "id": "I1.deliverable",
+      "prompt": "这张插画主要用于什么？",
+      "type": "single_select",
+      "options": [
+        {
+          "id": "key-visual",
+          "label": "角色主视觉",
+          "concept": "以人物识别和气质为核心"
+        },
+        {
+          "id": "cover",
+          "label": "封面或缩略图",
+          "concept": "需要明确留白和缩略可读性"
+        },
+        {
+          "id": "wallpaper",
+          "label": "横向壁纸",
+          "concept": "人物与环境共同承担画面"
+        },
+        {
+          "id": "custom",
+          "label": "其他（自行填写）",
+          "concept": "输入具体用途"
+        }
+      ],
+      "allow_custom": true
+    }
+  ]
+}

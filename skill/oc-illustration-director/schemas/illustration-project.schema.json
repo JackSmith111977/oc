@@ -1,0 +1,87 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Illustration Project",
+  "type": "object",
+  "required": [
+    "schema_version",
+    "meta",
+    "source",
+    "selection",
+    "direction",
+    "production",
+    "qa"
+  ],
+  "properties": {
+    "schema_version": {
+      "const": "2.0"
+    },
+    "meta": {
+      "type": "object",
+      "required": [
+        "project_id",
+        "title",
+        "revision"
+      ],
+      "properties": {
+        "project_id": {
+          "type": "string"
+        },
+        "title": {
+          "type": "string"
+        },
+        "revision": {
+          "type": "integer",
+          "minimum": 0
+        }
+      }
+    },
+    "source": {
+      "type": "object",
+      "required": [
+        "character_id",
+        "character_name",
+        "source_revision",
+        "manifest_sha256"
+      ]
+    },
+    "selection": {
+      "type": "object",
+      "properties": {
+        "hair_state": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "outfit_state": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "accessory_state": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "character_state": {
+          "type": [
+            "string",
+            "null"
+          ]
+        }
+      }
+    },
+    "direction": {
+      "type": "object"
+    },
+    "production": {
+      "type": "object"
+    },
+    "qa": {
+      "type": "object"
+    }
+  },
+  "additionalProperties": true
+}

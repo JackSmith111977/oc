@@ -1,0 +1,62 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "OC Illustration Handoff Manifest",
+  "type": "object",
+  "required": [
+    "handoff_version",
+    "character_id",
+    "character_name",
+    "source_schema_version",
+    "source_revision",
+    "files"
+  ],
+  "properties": {
+    "handoff_version": {
+      "const": "1.0"
+    },
+    "character_id": {
+      "type": "string",
+      "minLength": 1
+    },
+    "character_name": {
+      "type": "string"
+    },
+    "source_schema_version": {
+      "type": "string"
+    },
+    "source_revision": {
+      "type": "integer",
+      "minimum": 0
+    },
+    "created_at": {
+      "type": "string"
+    },
+    "files": {
+      "type": "object",
+      "required": [
+        "root_canon",
+        "strong_reference",
+        "approved_variants",
+        "consistency_lock",
+        "reference_manifest"
+      ],
+      "additionalProperties": {
+        "type": "object",
+        "required": [
+          "path",
+          "sha256"
+        ],
+        "properties": {
+          "path": {
+            "type": "string"
+          },
+          "sha256": {
+            "type": "string",
+            "pattern": "^[a-f0-9]{64}$"
+          }
+        }
+      }
+    }
+  },
+  "additionalProperties": true
+}
