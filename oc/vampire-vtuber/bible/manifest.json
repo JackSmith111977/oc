@@ -1,0 +1,139 @@
+{
+  "schema_version": "1.0",
+  "edition": "standard-plus",
+  "default_orientation": "landscape",
+  "preferred_ratios": [
+    "16:9",
+    "3:2"
+  ],
+  "portrait_ratio_cap": "4:5",
+  "text_policy": "two_pass_overlay",
+  "sheets": [
+    {
+      "sheet_id": "S00",
+      "title": "身份封面",
+      "sheet_type": "cover",
+      "aspect_ratio": "16:9",
+      "orientation": "landscape",
+      "status": "planned",
+      "purpose": "提供角色名称、身份钩子、版本和主视觉入口。"
+    },
+    {
+      "sheet_id": "S10",
+      "title": "主视觉总览",
+      "sheet_type": "master_overview",
+      "aspect_ratio": "16:9",
+      "orientation": "landscape",
+      "status": "planned",
+      "purpose": "用正式服中立全身、头部近景、识别锚点和色板建立唯一主参考。"
+    },
+    {
+      "sheet_id": "S15",
+      "title": "轮廓与比例",
+      "sheet_type": "silhouette_proportions",
+      "aspect_ratio": "16:9",
+      "orientation": "landscape",
+      "status": "planned",
+      "purpose": "验证少女型身材比例、长发与蓬松三层裙摆形成的主轮廓。"
+    },
+    {
+      "sheet_id": "S20",
+      "title": "全身三视图",
+      "sheet_type": "turnaround",
+      "aspect_ratio": "3:2",
+      "orientation": "landscape",
+      "status": "planned",
+      "purpose": "以正面、严格90度右侧面、背面验证比例、发量、三层裙摆和背部系带。"
+    },
+    {
+      "sheet_id": "S30",
+      "title": "脸部构造",
+      "sheet_type": "face_construction",
+      "aspect_ratio": "16:9",
+      "orientation": "landscape",
+      "status": "planned",
+      "purpose": "固定瓜子脸、下垂细长眼、红瞳、尖耳和尖牙的可复现结构。"
+    },
+    {
+      "sheet_id": "S32",
+      "title": "表情与状态系统",
+      "sheet_type": "expressions",
+      "aspect_ratio": "16:9",
+      "orientation": "landscape",
+      "status": "planned",
+      "purpose": "表现白天低能量、贵族直播和宅化反应三态，不改变脸部识别锚点。"
+    },
+    {
+      "sheet_id": "S36",
+      "title": "手势与手部",
+      "sheet_type": "hands_gestures",
+      "aspect_ratio": "16:9",
+      "orientation": "landscape",
+      "status": "planned",
+      "purpose": "补足直播致意、胸前收束、眼镜触碰和克制吐槽等可复用手势。"
+    },
+    {
+      "sheet_id": "S40",
+      "title": "服装层次与闭合",
+      "sheet_type": "costume_construction",
+      "aspect_ratio": "3:2",
+      "orientation": "landscape",
+      "status": "planned",
+      "purpose": "解释正式服内外层、胸衣正背面、背部交叉系带和附件连接逻辑。"
+    },
+    {
+      "sheet_id": "S44",
+      "title": "配色与材质",
+      "sheet_type": "palette_materials",
+      "aspect_ratio": "16:9",
+      "orientation": "landscape",
+      "status": "planned",
+      "purpose": "记录黑紫70%、暗红20%、旧金10%的使用部位和蕾丝、丝带、金属、宝石的表现方式。"
+    },
+    {
+      "sheet_id": "S50",
+      "title": "发型构造与运动",
+      "sheet_type": "hair_motion",
+      "aspect_ratio": "3:2",
+      "orientation": "landscape",
+      "status": "planned",
+      "purpose": "补足银白腰长微卷发、侧分长刘海、发量和背面发束走向，服务后续插画一致性。"
+    },
+    {
+      "sheet_id": "S70",
+      "title": "演出与直播姿态",
+      "sheet_type": "acting_poses",
+      "aspect_ratio": "16:9",
+      "orientation": "landscape",
+      "status": "planned",
+      "purpose": "把三态反差转成直播、杂谈、电台和游戏话题可复用的姿态语言。"
+    },
+    {
+      "sheet_id": "S80",
+      "title": "已批准状态变体",
+      "sheet_type": "variants",
+      "aspect_ratio": "16:9",
+      "orientation": "landscape",
+      "status": "planned",
+      "purpose": "明确正式贵族主视觉与白天程序员／宅家工作装的批准边界。"
+    },
+    {
+      "sheet_id": "S90",
+      "title": "一致性锁定与防漂移",
+      "sheet_type": "consistency_lock",
+      "aspect_ratio": "16:9",
+      "orientation": "landscape",
+      "status": "planned",
+      "purpose": "展示主参考、正确结构和常见错误，作为每次生成前后的审查页。"
+    },
+    {
+      "sheet_id": "S99",
+      "title": "版本与交付记录",
+      "sheet_type": "revision",
+      "aspect_ratio": "16:9",
+      "orientation": "landscape",
+      "status": "planned",
+      "purpose": "记录版本、页面状态、资产命名、生成与验收状态，避免把提示词草稿误认为已生成成品。"
+    }
+  ]
+}

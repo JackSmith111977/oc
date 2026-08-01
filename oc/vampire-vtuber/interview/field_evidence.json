@@ -1,0 +1,12 @@
+{
+  "schema_version":"1.0",
+  "migration_source":"state/field_evidence.json",
+  "fields":{
+    "oc_profile":"confirmed:user_answers_and_prior_canon",
+    "visual_canon":"confirmed:user_answers_and_prior_canon",
+    "production_spec":"confirmed:user_answers_and_skill_defaults",
+    "consistency_lock":"confirmed:explicitly_locked",
+    "production_spec.target_model":"unresolved:not_selected",
+    "qa.unresolved_items":"derived:remaining_open_fields"
+  }
+}

@@ -1,0 +1,80 @@
+{
+  "schema_version": "1.0",
+  "sheet_id": "S15",
+  "chapter": "20-visual-skeleton",
+  "title": "轮廓与比例",
+  "sheet_type": "silhouette_proportions",
+  "status": "planned",
+  "canon_revision": 65,
+  "canvas": {
+    "orientation": "landscape",
+    "aspect_ratio": "16:9",
+    "width": 3840,
+    "height": 2160,
+    "layout_template": "custom",
+    "background": "中性技术底"
+  },
+  "purpose": "验证少女型身材比例、长发与蓬松三层裙摆形成的主轮廓。",
+  "content_blocks": [
+    {
+      "id": "silhouette",
+      "type": "full_body_view",
+      "zone": "left-60",
+      "priority": 100,
+      "view": "formal black silhouette and neutral line view",
+      "asset_ref": null,
+      "caption": null,
+      "canon_paths": [
+        "visual_canon.body_proportions",
+        "visual_canon.shape_language"
+      ]
+    },
+    {
+      "id": "guide",
+      "type": "scale",
+      "zone": "center",
+      "priority": 85,
+      "view": "head height, shoulder-waist-hip relation",
+      "asset_ref": null,
+      "caption": null,
+      "canon_paths": [
+        "visual_canon.body_proportions"
+      ]
+    },
+    {
+      "id": "notes",
+      "type": "text_rail",
+      "zone": "right-rail",
+      "priority": 70,
+      "view": "silhouette rules",
+      "asset_ref": null,
+      "caption": null,
+      "canon_paths": [
+        "visual_canon.forbidden_drift"
+      ]
+    }
+  ],
+  "annotations": [],
+  "text_policy": {
+    "mode": "overlay",
+    "language": "zh-CN",
+    "max_callouts": 6,
+    "max_body_characters": 45,
+    "keep_clean_export": true
+  },
+  "generation": {
+    "prompt_file": "prompt.md",
+    "reference_assets": [],
+    "negative_constraints": [
+      "no adult proportions",
+      "no childlike distortion",
+      "no perspective",
+      "no tall poster"
+    ],
+    "required_views": [
+      "silhouette",
+      "proportion guide"
+    ]
+  },
+  "notes": "用黑色剪影和少量结构线，避免把姿势锁死。"
+}

@@ -1,0 +1,95 @@
+{
+  "schema_version": "1.0",
+  "sheet_id": "S10",
+  "chapter": "00-overview",
+  "title": "主视觉总览",
+  "sheet_type": "master_overview",
+  "status": "planned",
+  "canon_revision": 65,
+  "canvas": {
+    "orientation": "landscape",
+    "aspect_ratio": "16:9",
+    "width": 3840,
+    "height": 2160,
+    "layout_template": "L01",
+    "background": "低对比中性灰"
+  },
+  "purpose": "用正式服中立全身、头部近景、识别锚点和色板建立唯一主参考。",
+  "content_blocks": [
+    {
+      "id": "hero",
+      "type": "hero",
+      "zone": "left-56",
+      "priority": 100,
+      "view": "formal neutral full body",
+      "asset_ref": null,
+      "caption": null,
+      "canon_paths": [
+        "visual_canon.body_proportions",
+        "visual_canon.costume_construction"
+      ]
+    },
+    {
+      "id": "head",
+      "type": "head_view",
+      "zone": "right-top",
+      "priority": 90,
+      "view": "neutral head close-up",
+      "asset_ref": null,
+      "caption": null,
+      "canon_paths": [
+        "visual_canon.face",
+        "visual_canon.hair"
+      ]
+    },
+    {
+      "id": "anchors",
+      "type": "detail",
+      "zone": "right-middle",
+      "priority": 90,
+      "view": "hair, eyes, fang, crest, shoes",
+      "asset_ref": null,
+      "caption": null,
+      "canon_paths": [
+        "visual_canon.immutable_identifiers"
+      ]
+    },
+    {
+      "id": "palette",
+      "type": "palette",
+      "zone": "bottom-strip",
+      "priority": 70,
+      "view": "70/20/10 palette",
+      "asset_ref": null,
+      "caption": null,
+      "canon_paths": [
+        "visual_canon.palette",
+        "visual_canon.materials"
+      ]
+    }
+  ],
+  "annotations": [],
+  "text_policy": {
+    "mode": "overlay",
+    "language": "zh-CN",
+    "max_callouts": 8,
+    "max_body_characters": 45,
+    "keep_clean_export": true
+  },
+  "generation": {
+    "prompt_file": "prompt.md",
+    "reference_assets": [],
+    "negative_constraints": [
+      "no tall poster",
+      "no paragraph text",
+      "no scenic background",
+      "no cropped feet"
+    ],
+    "required_views": [
+      "neutral full body",
+      "neutral head",
+      "recognition anchors"
+    ]
+  },
+  "notes": "正式服是主视觉；白天工作装只作为S80变体。"
+}

@@ -1,0 +1,91 @@
+{
+  "schema_version": "1.0",
+  "sheet_id": "S44",
+  "chapter": "40-costume-color",
+  "title": "配色与材质",
+  "sheet_type": "palette_materials",
+  "status": "planned",
+  "canon_revision": 65,
+  "canvas": {
+    "orientation": "landscape",
+    "aspect_ratio": "16:9",
+    "width": 3840,
+    "height": 2160,
+    "layout_template": "L04",
+    "background": "低对比冷灰"
+  },
+  "purpose": "记录黑紫70%、暗红20%、旧金10%的使用部位和蕾丝、丝带、金属、宝石的表现方式。",
+  "content_blocks": [
+    {
+      "id": "swatches",
+      "type": "palette",
+      "zone": "bottom-strip",
+      "priority": 100,
+      "view": "primary palette usage ratios",
+      "asset_ref": null,
+      "caption": null,
+      "canon_paths": [
+        "visual_canon.palette"
+      ]
+    },
+    {
+      "id": "materials",
+      "type": "material",
+      "zone": "center",
+      "priority": 90,
+      "view": "lace ribbon cloth metal gemstone",
+      "asset_ref": null,
+      "caption": null,
+      "canon_paths": [
+        "visual_canon.materials"
+      ]
+    },
+    {
+      "id": "outfit",
+      "type": "full_body_view",
+      "zone": "left-42",
+      "priority": 85,
+      "view": "formal outfit color reference",
+      "asset_ref": null,
+      "caption": null,
+      "canon_paths": [
+        "visual_canon.costume_construction"
+      ]
+    },
+    {
+      "id": "notes",
+      "type": "text_rail",
+      "zone": "right-rail",
+      "priority": 70,
+      "view": "usage and not-locked finish choices",
+      "asset_ref": null,
+      "caption": null,
+      "canon_paths": [
+        "qa.unresolved_items"
+      ]
+    }
+  ],
+  "annotations": [],
+  "text_policy": {
+    "mode": "overlay",
+    "language": "zh-CN",
+    "max_callouts": 10,
+    "max_body_characters": 45,
+    "keep_clean_export": true
+  },
+  "generation": {
+    "prompt_file": "prompt.md",
+    "reference_assets": [],
+    "negative_constraints": [
+      "no excessive red",
+      "no excessive gold",
+      "no unapproved weathering",
+      "no paragraph text"
+    ],
+    "required_views": [
+      "palette swatches",
+      "material close-ups"
+    ]
+  },
+  "notes": "磨损程度和特殊光泽保持可变，不写入不可变 canon。"
+}

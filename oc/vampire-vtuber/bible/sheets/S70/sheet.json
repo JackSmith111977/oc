@@ -1,0 +1,81 @@
+{
+  "schema_version": "1.0",
+  "sheet_id": "S70",
+  "chapter": "50-acting-lore",
+  "title": "演出与直播姿态",
+  "sheet_type": "acting_poses",
+  "status": "planned",
+  "canon_revision": 65,
+  "canvas": {
+    "orientation": "landscape",
+    "aspect_ratio": "16:9",
+    "width": 3840,
+    "height": 2160,
+    "layout_template": "L05",
+    "background": "低对比中性灰"
+  },
+  "purpose": "把三态反差转成直播、杂谈、电台和游戏话题可复用的姿态语言。",
+  "content_blocks": [
+    {
+      "id": "formal",
+      "type": "pose",
+      "zone": "left-42",
+      "priority": 100,
+      "view": "formal opening, greeting and composed noble posture",
+      "asset_ref": null,
+      "caption": null,
+      "canon_paths": [
+        "oc_profile.personality",
+        "visual_canon.posture_and_expression"
+      ]
+    },
+    {
+      "id": "day",
+      "type": "pose",
+      "zone": "center",
+      "priority": 90,
+      "view": "low-energy programmer and focused pose",
+      "asset_ref": null,
+      "caption": null,
+      "canon_paths": [
+        "oc_profile.personality"
+      ]
+    },
+    {
+      "id": "otaku",
+      "type": "pose",
+      "zone": "right-rail",
+      "priority": 90,
+      "view": "controlled excitement and recovery",
+      "asset_ref": null,
+      "caption": null,
+      "canon_paths": [
+        "visual_canon.posture_and_expression"
+      ]
+    }
+  ],
+  "annotations": [],
+  "text_policy": {
+    "mode": "overlay",
+    "language": "zh-CN",
+    "max_callouts": 8,
+    "max_body_characters": 45,
+    "keep_clean_export": true
+  },
+  "generation": {
+    "prompt_file": "prompt.md",
+    "reference_assets": [],
+    "negative_constraints": [
+      "no fixed prop",
+      "no exaggerated gag acting",
+      "no second character",
+      "no costume drift"
+    ],
+    "required_views": [
+      "formal noble",
+      "day programmer",
+      "otaku reaction"
+    ]
+  },
+  "notes": "动作姿态可复用但不锁成单一默认姿势。"
+}

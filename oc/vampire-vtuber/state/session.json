@@ -1,0 +1,126 @@
+{
+  "session_id": "session-ad3bcf5352",
+  "status": "ready",
+  "current_gate": "complete",
+  "last_question_id": "production.aspect-ratio",
+  "last_answer_at": "2026-07-26T16:36:11+00:00",
+  "resolved_fields": [
+    "oc_profile.one_sentence_hook",
+    "oc_profile.intended_use",
+    "oc_profile.world_and_role",
+    "oc_profile.species_age_gender",
+    "oc_profile.personality",
+    "visual_canon.body_proportions",
+    "visual_canon.shape_language",
+    "visual_canon.face",
+    "visual_canon.hair",
+    "visual_canon.species_features",
+    "visual_canon.costume_construction",
+    "visual_canon.accessories_and_props",
+    "visual_canon.palette",
+    "visual_canon.posture_and_expression",
+    "visual_canon.immutable_identifiers",
+    "visual_canon.forbidden_drift",
+    "production_spec.requested_sheets",
+    "production_spec.art_direction",
+    "production_spec.rendering",
+    "production_spec.layout",
+    "production_spec.annotations",
+    "production_spec.target_model",
+    "qa.recommended_generation_order",
+    "consistency_lock",
+    "oc_profile.motivation_conflict",
+    "oc_profile.ability_and_cost",
+    "visual_canon.costume_construction.footwear_and_socks",
+    "visual_canon.costume_construction.costume_details_pending",
+    "visual_canon.costume_construction.bodice_closure",
+    "visual_canon.costume_construction.skirt_layers",
+    "visual_canon.costume_construction.formal_outfit",
+    "visual_canon.costume_construction.daytime_work_outfit",
+    "production_spec.aspect_ratio",
+    "qa.likely_generation_failures"
+  ],
+  "partial_fields": [
+    "qa.unresolved_items",
+    "visual_canon.materials"
+  ],
+  "blocked_fields": [],
+  "next_question": null,
+  "context_budget_chars": 7000,
+  "interview_mode": "standard",
+  "current_stage": "complete",
+  "stage_progress": {
+    "S0": {
+      "name": "目标与交付",
+      "status": "completed",
+      "resolved_required": 3,
+      "required_total": 3,
+      "missing_fields": [],
+      "questions_used": 0,
+      "question_limit": 3
+    },
+    "S1": {
+      "name": "概念核心",
+      "status": "completed",
+      "resolved_required": 2,
+      "required_total": 2,
+      "missing_fields": [],
+      "questions_used": 0,
+      "question_limit": 2
+    },
+    "S2": {
+      "name": "视觉骨架",
+      "status": "completed",
+      "resolved_required": 3,
+      "required_total": 3,
+      "missing_fields": [],
+      "questions_used": 0,
+      "question_limit": 3
+    },
+    "S3": {
+      "name": "识别锚点",
+      "status": "completed",
+      "resolved_required": 3,
+      "required_total": 3,
+      "missing_fields": [],
+      "questions_used": 0,
+      "question_limit": 3
+    },
+    "S4": {
+      "name": "服装与色材",
+      "status": "completed",
+      "resolved_required": 2,
+      "required_total": 2,
+      "missing_fields": [],
+      "questions_used": 0,
+      "question_limit": 3
+    },
+    "S5": {
+      "name": "角色演出",
+      "status": "completed",
+      "resolved_required": 2,
+      "required_total": 2,
+      "missing_fields": [],
+      "questions_used": 0,
+      "question_limit": 2
+    },
+    "S6": {
+      "name": "生产规格",
+      "status": "completed",
+      "resolved_required": 4,
+      "required_total": 4,
+      "missing_fields": [],
+      "questions_used": 1,
+      "question_limit": 2
+    },
+    "S7": {
+      "name": "复核与锁定",
+      "status": "completed",
+      "resolved_required": 1,
+      "required_total": 1,
+      "missing_fields": [],
+      "questions_used": 0,
+      "question_limit": 1
+    }
+  }
+}

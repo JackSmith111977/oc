@@ -1,0 +1,95 @@
+{
+  "schema_version": "1.0",
+  "sheet_id": "S40",
+  "chapter": "40-costume-color",
+  "title": "服装层次与闭合",
+  "sheet_type": "costume_construction",
+  "status": "planned",
+  "canon_revision": 65,
+  "canvas": {
+    "orientation": "landscape",
+    "aspect_ratio": "3:2",
+    "width": 3600,
+    "height": 2400,
+    "layout_template": "L04",
+    "background": "中性暖灰"
+  },
+  "purpose": "解释正式服内外层、胸衣正背面、背部交叉系带和附件连接逻辑。",
+  "content_blocks": [
+    {
+      "id": "base",
+      "type": "full_body_view",
+      "zone": "center-left",
+      "priority": 100,
+      "view": "formal front and back outfit",
+      "asset_ref": null,
+      "caption": null,
+      "canon_paths": [
+        "visual_canon.costume_construction"
+      ]
+    },
+    {
+      "id": "layers",
+      "type": "exploded_layer",
+      "zone": "top-and-bottom-strips",
+      "priority": 90,
+      "view": "inner, middle, outer skirt layers",
+      "asset_ref": null,
+      "caption": null,
+      "canon_paths": [
+        "visual_canon.costume_construction"
+      ]
+    },
+    {
+      "id": "details",
+      "type": "detail",
+      "zone": "right-rail",
+      "priority": 90,
+      "view": "ribbon, crest, closure, shoes and socks",
+      "asset_ref": null,
+      "caption": null,
+      "canon_paths": [
+        "visual_canon.accessories_and_props",
+        "visual_canon.costume_construction"
+      ]
+    },
+    {
+      "id": "materials",
+      "type": "material",
+      "zone": "footer",
+      "priority": 70,
+      "view": "palette and material response",
+      "asset_ref": null,
+      "caption": null,
+      "canon_paths": [
+        "visual_canon.palette",
+        "visual_canon.materials"
+      ]
+    }
+  ],
+  "annotations": [],
+  "text_policy": {
+    "mode": "overlay",
+    "language": "zh-CN",
+    "max_callouts": 12,
+    "max_body_characters": 45,
+    "keep_clean_export": true
+  },
+  "generation": {
+    "prompt_file": "prompt.md",
+    "reference_assets": [],
+    "negative_constraints": [
+      "no scenic background",
+      "no hidden back construction",
+      "no crest as necklace",
+      "no skirt layer merging"
+    ],
+    "required_views": [
+      "front outfit",
+      "back outfit",
+      "layer breakdown",
+      "attachment close-ups"
+    ]
+  },
+  "notes": "高密度时拆为服装结构页与家徽配件页，不能缩小角色牺牲可读性。"
+}

@@ -1,0 +1,183 @@
+{
+  "questions": [
+    {
+      "id": "motivation.core",
+      "field": "oc_profile.motivation_conflict",
+      "question": "她最想守住什么？",
+      "type": "single_select",
+      "options": [
+        "没落家族最后的尊严",
+        "作为普通人的现代生活",
+        "证明自己并非废柴",
+        "寻找真实的身世与年龄",
+        "在漫长岁月中找到陪伴",
+        "其他（自行填写）"
+      ],
+      "free_text_placeholder": "可选择一个，也可以填写或组合你的想法",
+      "gate": "G",
+      "priority": 100,
+      "status": "completed",
+      "created_at": "2026-07-26T15:39:44+00:00",
+      "answer": "在漫长岁月中找到陪伴",
+      "answered_at": "2026-07-26T15:51:32+00:00"
+    },
+    {
+      "id": "ability.core",
+      "field": "oc_profile.ability_and_cost",
+      "question": "她最标志性的吸血鬼能力？",
+      "type": "single_select",
+      "options": [
+        "血液操控：力量直观，代价是饥饿与失血",
+        "夜行幻惑：强化速度与魅惑，代价是白天虚弱",
+        "梦境记忆：进入梦境或读取记忆，代价是记忆混淆",
+        "其他（自行填写）"
+      ],
+      "free_text_placeholder": "可补充能力的具体表现、使用条件与代价",
+      "gate": "G",
+      "priority": 90,
+      "status": "completed",
+      "created_at": "2026-07-26T15:52:37+00:00",
+      "answer": "血液操控：力量直观，代价是饥饿与失血",
+      "answered_at": "2026-07-26T15:59:21+00:00"
+    },
+    {
+      "id": "costume.footwear",
+      "field": "visual_canon.costume_construction.footwear_and_socks",
+      "question": "她的鞋袜组合？",
+      "type": "single_select",
+      "options": [
+        "黑色玛丽珍鞋＋白色蕾丝长袜",
+        "暗红短靴＋黑色过膝袜",
+        "旧金扣饰高跟鞋＋半透明黑丝袜",
+        "其他（自行填写）"
+      ],
+      "free_text_placeholder": "可描述鞋型、袜长、材质与装饰",
+      "gate": "D",
+      "priority": 85,
+      "status": "completed",
+      "created_at": "2026-07-26T15:59:21+00:00",
+      "answer": "黑色玛丽珍鞋＋白色蕾丝长袜",
+      "answered_at": "2026-07-26T16:04:06+00:00"
+    },
+    {
+      "id": "costume.closure",
+      "field": "visual_canon.costume_construction.bodice_closure",
+      "question": "她的胸衣如何闭合？",
+      "type": "single_select",
+      "options": [
+        "背部交叉系带：最典型的古典束腰结构",
+        "前襟暗扣：正面整洁，装饰扣可作为视觉重点",
+        "侧面拉链＋装饰系带：穿脱方便，同时保留哥特细节",
+        "其他（自行填写）"
+      ],
+      "free_text_placeholder": "可描述闭合位置、扣饰、系带颜色与是否外露",
+      "gate": "D",
+      "priority": 80,
+      "status": "completed",
+      "created_at": "2026-07-26T16:06:36+00:00",
+      "answer": "背部交叉系带：最典型的古典束腰结构",
+      "answered_at": "2026-07-26T16:10:43+00:00"
+    },
+    {
+      "id": "costume.skirt.layers",
+      "field": "visual_canon.costume_construction.skirt_layers",
+      "question": "她的裙摆有几层？",
+      "type": "single_select",
+      "options": [
+        "两层：轮廓轻盈，便于日常活动",
+        "三层：蓬松度与蕾丝层次平衡",
+        "四层或以上：强调贵族礼服的华丽体量",
+        "其他（自行填写）"
+      ],
+      "free_text_placeholder": "可描述裙摆层数、内衬结构、蕾丝露出方式与蓬松程度",
+      "gate": "D",
+      "priority": 75,
+      "status": "completed",
+      "created_at": "2026-07-26T16:10:43+00:00",
+      "answer": "三层：蓬松度与蕾丝层次平衡",
+      "answered_at": "2026-07-26T16:15:44+00:00"
+    },
+    {
+      "id": "costume.formal-vs-day",
+      "field": "visual_canon.costume_construction.costume_details_pending",
+      "question": "正式服与日常服如何区分？",
+      "type": "single_select",
+      "options": [
+        "正式服保留完整三层哥特长裙；日常服改为宽松衬衫、针织外套与简化长裙",
+        "两套服装共用三层裙摆，只更换上衣、外套与配饰",
+        "日常服也保留黑紫配色、家徽与少量蕾丝等哥特元素",
+        "其他（自行填写）"
+      ],
+      "free_text_placeholder": "可描述两套服装保留与替换的具体部件",
+      "gate": "D",
+      "priority": 70,
+      "status": "completed",
+      "created_at": "2026-07-26T16:19:43+00:00",
+      "answer": "正式服保留完整三层哥特长裙；日常服改为宽松衬衫、针织外套与简化长裙",
+      "answered_at": "2026-07-26T16:23:07+00:00"
+    },
+    {
+      "id": "palette.ratios",
+      "field": "visual_canon.palette",
+      "question": "正式服的主色比例？",
+      "type": "single_select",
+      "options": [
+        "黑紫约60％、暗红约25％、旧金约15％：黑紫主导，暗红集中在内衬与装饰，旧金少量点缀",
+        "黑紫约50％、暗红约30％、旧金约20％：三色对比更鲜明",
+        "黑紫约70％、暗红约20％、旧金约10％：整体更沉静克制",
+        "其他（自行填写）"
+      ],
+      "free_text_placeholder": "可填写三种颜色的比例、分布部位或日常服配色差异",
+      "gate": "E",
+      "priority": 68,
+      "status": "completed",
+      "created_at": "2026-07-26T16:23:08+00:00",
+      "answer": "黑紫约70％、暗红约20％、旧金约10％：整体更沉静克制",
+      "fanout_updates": {
+        "visual_canon.palette": "正式服主色比例：黑紫70％、暗红20％、旧金10％；黑紫覆盖主要裙装与胸衣结构，暗红集中于内衬、蔷薇与宝石，旧金仅用于家徽、扣饰和细边点缀。整体视觉沉静克制。"
+      },
+      "answered_at": "2026-07-26T16:27:47+00:00"
+    },
+    {
+      "id": "production.aspect-ratio",
+      "field": "production_spec.aspect_ratio",
+      "resolves_fields": [
+        "production_spec.aspect_ratio"
+      ],
+      "question": "设定图采用什么画幅？",
+      "type": "single_select",
+      "options": [
+        "4:3 横向：适合角色全身、三视图与拆解信息并列（推荐）",
+        "3:4 纵向：突出单角色全身比例",
+        "16:9 横向：适合直播画面与宽版展示",
+        "其他（自行填写）"
+      ],
+      "free_text_placeholder": "可填写画幅比例、横竖构图及不同设定图是否采用不同画幅",
+      "stage": "S6",
+      "gate": "S6",
+      "priority": 50,
+      "reason": "画幅会直接约束全身锚点、三视图排列和设定图信息密度",
+      "depends_on": [],
+      "adaptive_group": null,
+      "required_for_stage": true,
+      "status": "completed",
+      "created_at": "2026-07-26T16:29:42+00:00",
+      "answer": "3:4 纵向：突出单角色全身比例",
+      "fanout_updates": {
+        "production_spec.aspect_ratio": "3:4 纵向"
+      },
+      "answered_at": "2026-07-26T16:36:11+00:00"
+    }
+  ],
+  "completed_question_ids": [
+    "motivation.core",
+    "ability.core",
+    "costume.footwear",
+    "costume.closure",
+    "costume.skirt.layers",
+    "costume.formal-vs-day",
+    "palette.ratios",
+    "production.aspect-ratio"
+  ],
+  "skipped_question_ids": []
+}

@@ -1,0 +1,15 @@
+{
+  "schema_version": "1.0",
+  "chapters": [
+    {"id":"00-overview","title":"总览","description":"身份摘要、用途和当前版本"},
+    {"id":"10-identity","title":"身份与世界","description":"姓名、角色定位、种族与叙事核心"},
+    {"id":"20-visual-skeleton","title":"视觉骨架","description":"体型比例、形状语言和轮廓"},
+    {"id":"30-recognition","title":"识别锚点","description":"脸、发型、物种特征和不可变识别点"},
+    {"id":"40-costume-color","title":"服装、道具与色材","description":"服装构造、附件、配色和材质"},
+    {"id":"50-acting-lore","title":"演出与叙事","description":"性格、姿态、表情、动机和能力代价"},
+    {"id":"60-production","title":"制作规格","description":"设定图、画幅、渲染、标注和目标工具"},
+    {"id":"70-consistency","title":"一致性锁定","description":"不可漂移项和制作顺序"},
+    {"id":"75-character-bible","title":"设定集规划","description":"页面清单、版式和图文标注策略"},
+    {"id":"90-open-issues","title":"待定与冲突","description":"未解决问题、冲突和生成风险"}
+  ]
+}

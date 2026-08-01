@@ -1,0 +1,14 @@
+{
+  "session_id":"session-ad3bcf5352",
+  "status":"ready",
+  "mode":"standard",
+  "current_stage":"S7",
+  "question_budget":14,
+  "questions_used":2,
+  "active_batch_id":null,
+  "resolved_fields":["oc_profile","visual_canon","production_spec","consistency_lock"],
+  "partial_fields":["qa.unresolved_items","visual_canon.materials","production_spec.target_model"],
+  "context_budget_chars":7000,
+  "stage_progress":{"S0":"completed","S1":"completed","S2":"completed","S3":"completed","S4":"completed","S5":"completed","S6":"completed","S7":"completed"},
+  "migration_source":"state/session.json"
+}

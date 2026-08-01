@@ -1,0 +1,92 @@
+{
+  "schema_version": "1.0",
+  "sheet_id": "S90",
+  "chapter": "70-consistency",
+  "title": "一致性锁定与防漂移",
+  "sheet_type": "consistency_lock",
+  "status": "planned",
+  "canon_revision": 65,
+  "canvas": {
+    "orientation": "landscape",
+    "aspect_ratio": "16:9",
+    "width": 3840,
+    "height": 2160,
+    "layout_template": "L06",
+    "background": "中性技术底"
+  },
+  "purpose": "展示主参考、正确结构和常见错误，作为每次生成前后的审查页。",
+  "content_blocks": [
+    {
+      "id": "approved",
+      "type": "hero",
+      "zone": "left-36",
+      "priority": 100,
+      "view": "approved canonical reference",
+      "asset_ref": null,
+      "caption": null,
+      "canon_paths": [
+        "consistency_lock"
+      ]
+    },
+    {
+      "id": "correct",
+      "type": "comparison",
+      "zone": "center",
+      "priority": 90,
+      "view": "correct hair, costume, crest, glasses and shoes",
+      "asset_ref": null,
+      "caption": null,
+      "canon_paths": [
+        "visual_canon.immutable_identifiers"
+      ]
+    },
+    {
+      "id": "avoid",
+      "type": "comparison",
+      "zone": "right-rail",
+      "priority": 100,
+      "view": "forbidden drift examples",
+      "asset_ref": null,
+      "caption": null,
+      "canon_paths": [
+        "visual_canon.forbidden_drift"
+      ]
+    },
+    {
+      "id": "footer",
+      "type": "text_rail",
+      "zone": "bottom-strip",
+      "priority": 80,
+      "view": "preflight checklist",
+      "asset_ref": null,
+      "caption": null,
+      "canon_paths": [
+        "qa.likely_generation_failures"
+      ]
+    }
+  ],
+  "annotations": [],
+  "text_policy": {
+    "mode": "overlay",
+    "language": "zh-CN",
+    "max_callouts": 12,
+    "max_body_characters": 45,
+    "keep_clean_export": true
+  },
+  "generation": {
+    "prompt_file": "prompt.md",
+    "reference_assets": [],
+    "negative_constraints": [
+      "no unlabeled variant",
+      "no random redesign",
+      "no paragraph text baked into image",
+      "no scenic background"
+    ],
+    "required_views": [
+      "approved reference",
+      "correct examples",
+      "avoid examples"
+    ]
+  },
+  "notes": "错误示例可使用示意局部，不得污染主 canon。"
+}

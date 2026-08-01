@@ -1,0 +1,164 @@
+{
+  "plan_version": "1.0",
+  "mode": "standard",
+  "deliverables": [
+    "中立全身视觉锚点",
+    "线稿设定图",
+    "正面／侧面／背面三视图",
+    "彩色角色设定表",
+    "表情与状态对照",
+    "动作与姿态对照表",
+    "服装与家徽配件拆解",
+    "最终插画提示词"
+  ],
+  "question_budget": 14,
+  "questions_used": 2,
+  "accept_inferred_confidence": 0.85,
+  "current_stage": "complete",
+  "stage_order": [
+    "S0",
+    "S1",
+    "S2",
+    "S3",
+    "S4",
+    "S5",
+    "S6",
+    "S7"
+  ],
+  "stages": {
+    "S0": {
+      "id": "S0",
+      "name": "目标与交付",
+      "purpose": "明确用途、当前交付物和视觉方向",
+      "required_fields": [
+        "oc_profile.intended_use",
+        "production_spec.requested_sheets",
+        "production_spec.art_direction"
+      ],
+      "optional_fields": [
+        "production_spec.target_model"
+      ],
+      "enabled": true,
+      "status": "completed",
+      "questions_used": 0,
+      "question_limit": 3
+    },
+    "S1": {
+      "id": "S1",
+      "name": "概念核心",
+      "purpose": "建立一句话钩子、世界与角色关系",
+      "required_fields": [
+        "oc_profile.one_sentence_hook",
+        "oc_profile.world_and_role"
+      ],
+      "optional_fields": [
+        "oc_profile.motivation_conflict",
+        "oc_profile.ability_and_cost"
+      ],
+      "enabled": true,
+      "status": "completed",
+      "questions_used": 0,
+      "question_limit": 2
+    },
+    "S2": {
+      "id": "S2",
+      "name": "视觉骨架",
+      "purpose": "锁定种族年龄、体型比例、形状语言与轮廓",
+      "required_fields": [
+        "oc_profile.species_age_gender",
+        "visual_canon.body_proportions",
+        "visual_canon.shape_language"
+      ],
+      "optional_fields": [
+        "visual_canon.species_features"
+      ],
+      "enabled": true,
+      "status": "completed",
+      "questions_used": 0,
+      "question_limit": 3
+    },
+    "S3": {
+      "id": "S3",
+      "name": "识别锚点",
+      "purpose": "锁定脸、头发和不可漂移识别点",
+      "required_fields": [
+        "visual_canon.face",
+        "visual_canon.hair",
+        "visual_canon.immutable_identifiers"
+      ],
+      "optional_fields": [],
+      "enabled": true,
+      "status": "completed",
+      "questions_used": 0,
+      "question_limit": 3
+    },
+    "S4": {
+      "id": "S4",
+      "name": "服装与色材",
+      "purpose": "建立可从正侧背解释的服装、道具、配色和材质",
+      "required_fields": [
+        "visual_canon.costume_construction",
+        "visual_canon.palette"
+      ],
+      "optional_fields": [
+        "visual_canon.accessories_and_props",
+        "visual_canon.materials"
+      ],
+      "enabled": true,
+      "status": "completed",
+      "questions_used": 0,
+      "question_limit": 3
+    },
+    "S5": {
+      "id": "S5",
+      "name": "角色演出",
+      "purpose": "把性格转译为姿态、视线、手势和表情",
+      "required_fields": [
+        "visual_canon.posture_and_expression",
+        "oc_profile.personality"
+      ],
+      "optional_fields": [
+        "oc_profile.motivation_conflict",
+        "oc_profile.ability_and_cost"
+      ],
+      "enabled": true,
+      "status": "completed",
+      "questions_used": 0,
+      "question_limit": 2
+    },
+    "S6": {
+      "id": "S6",
+      "name": "生产规格",
+      "purpose": "确定视图、布局、渲染、比例、标注和目标模型",
+      "required_fields": [
+        "production_spec.rendering",
+        "production_spec.layout",
+        "production_spec.aspect_ratio",
+        "production_spec.annotations"
+      ],
+      "optional_fields": [
+        "production_spec.target_model"
+      ],
+      "enabled": true,
+      "status": "completed",
+      "questions_used": 1,
+      "question_limit": 2
+    },
+    "S7": {
+      "id": "S7",
+      "name": "复核与锁定",
+      "purpose": "处理假设与冲突，生成一致性锁定规则",
+      "required_fields": [
+        "consistency_lock"
+      ],
+      "optional_fields": [
+        "visual_canon.forbidden_drift"
+      ],
+      "enabled": true,
+      "status": "completed",
+      "questions_used": 0,
+      "question_limit": 1
+    }
+  },
+  "configured_at": "2026-07-28T14:43:13+00:00"
+}

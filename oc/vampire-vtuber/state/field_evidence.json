@@ -1,0 +1,148 @@
+{
+  "fields": {
+    "visual_canon.palette": {
+      "status": "confirmed",
+      "confidence": 1.0,
+      "source": "user_answer",
+      "question_id": "palette.ratios",
+      "value_sha256": "ffafc9b2a276b8e8999ff96d6d81e039eaf1db81a15a2922971a2af8c18e9a24",
+      "updated_at": "2026-07-26T16:27:47+00:00"
+    },
+    "consistency_lock": {
+      "status": "confirmed",
+      "confidence": 1.0,
+      "source": "user answer to palette.ratios",
+      "question_id": null,
+      "value_sha256": "a7ad067ac8bfba1729143c09cc2cfc1532a458546fdc993edc30cb503a7fa8bd",
+      "updated_at": "2026-07-26T16:28:10+00:00"
+    },
+    "qa.unresolved_items": {
+      "status": "derived",
+      "confidence": 1.0,
+      "source": "production.aspect-ratio completed",
+      "question_id": null,
+      "value_sha256": "981eb35ec1ed9ba62185f2a25107f4c60d313749b0e7d1f4ca95bdd8d443ccd6",
+      "updated_at": "2026-07-26T16:36:45+00:00"
+    },
+    "production_spec.aspect_ratio": {
+      "status": "confirmed",
+      "confidence": 1.0,
+      "source": "user_answer",
+      "question_id": "production.aspect-ratio",
+      "value_sha256": "013599f2b708395ff59e6d6662bb780801cbad392b4f4b57b543fd0b035554f7",
+      "updated_at": "2026-07-26T16:36:11+00:00"
+    },
+    "oc_profile.personality": {
+      "status": "confirmed",
+      "confidence": 1.0,
+      "source": "structure-refactor-v2.2",
+      "question_id": null,
+      "value_sha256": "19fd56ae8b8459f4f3ee658c21ead83cea292aa5ca56a4fcc4e293ddd80804fc",
+      "updated_at": "2026-07-28T14:42:41+00:00"
+    },
+    "visual_canon.costume_construction": {
+      "status": "confirmed",
+      "confidence": 1.0,
+      "source": "structure-refactor-v2.2",
+      "question_id": null,
+      "value_sha256": "e153a59831abefedc7897962e317a997ca351a48ae2619f46b0f7bba69917230",
+      "updated_at": "2026-07-28T14:42:42+00:00"
+    },
+    "visual_canon.accessories_and_props": {
+      "status": "confirmed",
+      "confidence": 1.0,
+      "source": "structure-refactor-v2.2",
+      "question_id": null,
+      "value_sha256": "25e4af750d55dd0a423b617be0abc91244d3a5f5292281a089415a0fa87c0ea4",
+      "updated_at": "2026-07-28T14:42:42+00:00"
+    },
+    "visual_canon.immutable_identifiers": {
+      "status": "confirmed",
+      "confidence": 1.0,
+      "source": "structure-refactor-v2.2",
+      "question_id": null,
+      "value_sha256": "5c7e818f2d281237ed41fed5741758e3bbfbbbc44880c08a01f5a715df54d1b9",
+      "updated_at": "2026-07-28T14:42:43+00:00"
+    },
+    "visual_canon.forbidden_drift": {
+      "status": "confirmed",
+      "confidence": 1.0,
+      "source": "structure-refactor-v2.2",
+      "question_id": null,
+      "value_sha256": "527b5dc90ce2c3b0a700522b518e0a0df19a5552a124a676a97aa935f3fc7a9b",
+      "updated_at": "2026-07-28T14:42:43+00:00"
+    },
+    "production_spec.requested_sheets": {
+      "status": "confirmed",
+      "confidence": 1.0,
+      "source": "interview_config",
+      "question_id": null,
+      "value_sha256": "72e9c65a5b7880dbbc198f7bc5d0b042c51f25d35426a0f5e870ac7cebbf9b60",
+      "updated_at": "2026-07-28T14:43:13+00:00"
+    },
+    "qa.likely_generation_failures": {
+      "status": "confirmed",
+      "confidence": 1.0,
+      "source": "structure-refactor-v2.2",
+      "question_id": null,
+      "value_sha256": "2a52d4f9a84d0a3875a590dcb5c0a1da7d8599c2629cab039187159577c7179a",
+      "updated_at": "2026-07-28T14:42:45+00:00"
+    },
+    "qa.recommended_generation_order": {
+      "status": "confirmed",
+      "confidence": 1.0,
+      "source": "structure-refactor-v2.2",
+      "question_id": null,
+      "value_sha256": "35fe9e0ca64baed523e92cbb69c4449f65b3bd52639e3cdedbefae839a83ff7b",
+      "updated_at": "2026-07-28T14:42:45+00:00"
+    },
+    "visual_canon.body_proportions": {
+      "status": "confirmed",
+      "confidence": 1.0,
+      "source": "structure-refactor-v2.2",
+      "question_id": null,
+      "value_sha256": "a8f26be220f149246ea785edd90d36ce7c383365fdde6b9621256a0849e6c875",
+      "updated_at": "2026-07-28T14:43:02+00:00"
+    },
+    "visual_canon.materials": {
+      "status": "derived",
+      "confidence": 1.0,
+      "source": "structure-refactor-v2.2",
+      "question_id": null,
+      "value_sha256": "12e6dcb028c64723942e71da60170fa64c497a8a181fab2119b32f068e92f3cd",
+      "updated_at": "2026-07-28T14:43:02+00:00"
+    },
+    "visual_canon.posture_and_expression": {
+      "status": "confirmed",
+      "confidence": 1.0,
+      "source": "structure-refactor-v2.2",
+      "question_id": null,
+      "value_sha256": "d2487ca8e049972f746dfee731a5c510a79cb85af957a02b95c050300c18b3f5",
+      "updated_at": "2026-07-28T14:43:03+00:00"
+    },
+    "production_spec.rendering": {
+      "status": "confirmed",
+      "confidence": 1.0,
+      "source": "structure-refactor-v2.2",
+      "question_id": null,
+      "value_sha256": "0185c9bc98a05b0cd12d552ccfc58a6ace82e9ae75957fa9fe8726da29ba7866",
+      "updated_at": "2026-07-28T14:43:03+00:00"
+    },
+    "production_spec.layout": {
+      "status": "confirmed",
+      "confidence": 1.0,
+      "source": "structure-refactor-v2.2",
+      "question_id": null,
+      "value_sha256": "281e7200b1bbd06b1578fdc4962aafddf5d74eb84549c76a7cb711352352545a",
+      "updated_at": "2026-07-28T14:43:03+00:00"
+    },
+    "production_spec.annotations": {
+      "status": "confirmed",
+      "confidence": 1.0,
+      "source": "structure-refactor-v2.2",
+      "question_id": null,
+      "value_sha256": "f76a448aa89bb48bc2a0b61d778524fcb6e29c56e4bb0e944cceb7dfd7a693d4",
+      "updated_at": "2026-07-28T14:43:03+00:00"
+    }
+  }
+}

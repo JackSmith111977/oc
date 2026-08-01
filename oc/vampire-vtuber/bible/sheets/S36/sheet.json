@@ -1,0 +1,78 @@
+{
+  "schema_version": "1.0",
+  "sheet_id": "S36",
+  "chapter": "50-acting-lore",
+  "title": "手势与手部",
+  "sheet_type": "hands_gestures",
+  "status": "planned",
+  "canon_revision": 65,
+  "canvas": {
+    "orientation": "landscape",
+    "aspect_ratio": "16:9",
+    "width": 3840,
+    "height": 2160,
+    "layout_template": "L03",
+    "background": "低对比中性灰"
+  },
+  "purpose": "补足直播致意、胸前收束、眼镜触碰和克制吐槽等可复用手势。",
+  "content_blocks": [
+    {
+      "id": "hands",
+      "type": "detail",
+      "zone": "left-48",
+      "priority": 100,
+      "view": "open hand, chest gesture, glasses touch, chin touch",
+      "asset_ref": null,
+      "caption": null,
+      "canon_paths": [
+        "visual_canon.posture_and_expression"
+      ]
+    },
+    {
+      "id": "pose",
+      "type": "pose",
+      "zone": "center",
+      "priority": 90,
+      "view": "small upper-body gesture references",
+      "asset_ref": null,
+      "caption": null,
+      "canon_paths": [
+        "oc_profile.personality"
+      ]
+    },
+    {
+      "id": "avoid",
+      "type": "text_rail",
+      "zone": "right-rail",
+      "priority": 70,
+      "view": "hand anatomy and obstruction rules",
+      "asset_ref": null,
+      "caption": null,
+      "canon_paths": [
+        "visual_canon.forbidden_drift"
+      ]
+    }
+  ],
+  "annotations": [],
+  "text_policy": {
+    "mode": "overlay",
+    "language": "zh-CN",
+    "max_callouts": 8,
+    "max_body_characters": 45,
+    "keep_clean_export": true
+  },
+  "generation": {
+    "prompt_file": "prompt.md",
+    "reference_assets": [],
+    "negative_constraints": [
+      "no hidden hands",
+      "no extra fingers",
+      "no props",
+      "no hand covering crest"
+    ],
+    "required_views": [
+      "signature hand gestures"
+    ]
+  },
+  "notes": "动作页只提供动作库，不新增固定道具。"
+}
