@@ -1,0 +1,89 @@
+{
+  "template_version": "1.1.0",
+  "pages": [
+    {
+      "code": "P00",
+      "title": "封面与身份",
+      "aspect_ratio": "16:9",
+      "layout": "cover",
+      "blocks": []
+    },
+    {
+      "code": "P10",
+      "title": "主设定总览",
+      "aspect_ratio": "16:9",
+      "layout": "overview",
+      "blocks": []
+    },
+    {
+      "code": "P20",
+      "title": "人体根本",
+      "aspect_ratio": "3:2",
+      "layout": "body-core",
+      "blocks": []
+    },
+    {
+      "code": "P25",
+      "title": "比例与轮廓",
+      "aspect_ratio": "16:9",
+      "layout": "silhouette",
+      "blocks": []
+    },
+    {
+      "code": "P30",
+      "title": "头部构成",
+      "aspect_ratio": "3:2",
+      "layout": "head",
+      "blocks": []
+    },
+    {
+      "code": "P35",
+      "title": "五官分解",
+      "aspect_ratio": "16:9",
+      "layout": "face-details",
+      "blocks": []
+    },
+    {
+      "code": "P40",
+      "title": "表情稳定",
+      "aspect_ratio": "16:9",
+      "layout": "expressions",
+      "blocks": []
+    },
+    {
+      "code": "P45",
+      "title": "永久识别细节",
+      "aspect_ratio": "16:9",
+      "layout": "callouts",
+      "blocks": []
+    },
+    {
+      "code": "P50",
+      "title": "发型强参考",
+      "aspect_ratio": "3:2",
+      "layout": "strong-reference",
+      "blocks": []
+    },
+    {
+      "code": "P60",
+      "title": "服饰强参考",
+      "aspect_ratio": "3:2",
+      "layout": "strong-reference",
+      "blocks": []
+    },
+    {
+      "code": "P70",
+      "title": "完整三视图",
+      "aspect_ratio": "3:2",
+      "layout": "turnaround",
+      "blocks": []
+    },
+    {
+      "code": "P90",
+      "title": "一致性锁定",
+      "aspect_ratio": "16:9",
+      "layout": "consistency",
+      "blocks": []
+    }
+  ]
+}

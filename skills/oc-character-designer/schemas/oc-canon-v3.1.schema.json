@@ -1,0 +1,117 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "oc-canon-v3.1.schema.json",
+  "title": "OC Canon v3.1",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "schema_version",
+    "meta",
+    "root_canon",
+    "strong_reference",
+    "variants",
+    "presentation",
+    "production_spec",
+    "consistency_lock",
+    "qa"
+  ],
+  "properties": {
+    "schema_version": {
+      "const": "3.1"
+    },
+    "meta": {
+      "type": "object",
+      "required": [
+        "id",
+        "name",
+        "revision",
+        "created_at",
+        "updated_at"
+      ],
+      "properties": {
+        "id": {
+          "type": "string"
+        },
+        "name": {
+          "type": "string"
+        },
+        "revision": {
+          "type": "integer",
+          "minimum": 0
+        },
+        "created_at": {
+          "type": "string"
+        },
+        "updated_at": {
+          "type": "string"
+        }
+      },
+      "additionalProperties": true
+    },
+    "root_canon": {
+      "type": "object",
+      "required": [
+        "identity",
+        "body_core",
+        "face_core",
+        "identity_details"
+      ],
+      "properties": {
+        "identity": {
+          "type": "object"
+        },
+        "body_core": {
+          "type": "object"
+        },
+        "face_core": {
+          "type": "object"
+        },
+        "identity_details": {
+          "type": "object"
+        }
+      },
+      "additionalProperties": false
+    },
+    "strong_reference": {
+      "type": "object",
+      "required": [
+        "hair",
+        "costume",
+        "palette_accessories"
+      ],
+      "properties": {
+        "hair": {
+          "type": "object"
+        },
+        "costume": {
+          "type": "object"
+        },
+        "palette_accessories": {
+          "type": "object"
+        }
+      },
+      "additionalProperties": false
+    },
+    "variants": {
+      "type": "object"
+    },
+    "presentation": {
+      "type": "object"
+    },
+    "production_spec": {
+      "type": "object"
+    },
+    "consistency_lock": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "qa": {
+      "type": "object"
+    },
+    "extensions": {
+      "type": "object"
+    }
+  }
+}

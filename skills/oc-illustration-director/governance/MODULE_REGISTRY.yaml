@@ -1,0 +1,23 @@
+version: 2.0.0
+modules:
+  handoff-ingestion:
+    file: modules/10-handoff-ingestion.md
+    owns: [handoff validation, identity contract, reference manifest]
+  illustration-interview:
+    file: modules/20-illustration-interview.md
+    owns: [I0-I8 stages, batch questions, Ask adapter]
+  direction:
+    file: modules/30-direction.md
+    owns: [narrative, acting, camera, scene, light, style]
+  prompt-compiler:
+    file: modules/40-prompt-compiler.md
+    owns: [semantic prompt, model adapters, negative constraints]
+  continuity:
+    file: modules/50-continuity.md
+    owns: [series state, topology, temporal transitions]
+  upstream-feedback:
+    file: modules/60-upstream-feedback.md
+    owns: [change request, candidate variants]
+  quality-release:
+    file: modules/70-quality-release.md
+    owns: [pre-generation QA, post-generation review, release records]

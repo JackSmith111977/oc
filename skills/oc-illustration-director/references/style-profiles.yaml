@@ -1,0 +1,56 @@
+version: 2.0.0
+profiles:
+  - id: clean-anime-production
+    name: 清晰动画插画
+    suitable_for: [character key visual, livestream cover, series]
+    line: clean controlled linework, readable facial features
+    form: anime proportions with stable anatomy
+    rendering: flat-to-soft gradients, restrained painterly detail
+    lighting: clear key light, readable shadow groups
+    background: medium density
+    post: subtle bloom only
+    identity_drift_risk: low
+    recommended_fidelity: [strict, balanced]
+  - id: cinematic-semi-painterly
+    name: 电影感半厚涂
+    suitable_for: [poster, dramatic portrait, narrative illustration]
+    line: partially dissolved linework
+    form: stable anime facial structure with realistic light response
+    rendering: semi-painterly hair, fabric and environment
+    lighting: cinematic motivated light
+    background: medium-to-high density
+    post: restrained grain and bloom
+    identity_drift_risk: medium
+    recommended_fidelity: [balanced]
+  - id: graphic-poster
+    name: 平面海报图形化
+    suitable_for: [cover, promotional poster, social graphic]
+    line: bold simplified contours
+    form: silhouette and shape-language first
+    rendering: flat graphic color blocks
+    lighting: minimal or symbolic
+    background: decorative geometry
+    post: print texture optional
+    identity_drift_risk: medium
+    recommended_fidelity: [balanced, stylized]
+  - id: airy-backlit-anime
+    name: 透明空气感逆光
+    suitable_for: [gentle portrait, seasonal illustration, emotional scene]
+    line: delicate retained sketch rhythm
+    form: soft stable anime anatomy
+    rendering: smooth skin, soft painterly hair and fabric
+    lighting: backlight or side backlight
+    background: low density with breathing room
+    post: soft bloom, low grain
+    identity_drift_risk: low-medium
+    recommended_fidelity: [strict, balanced]
+modifiers:
+  - id: chromatic-fringe-restrained
+    name: 克制色差边缘
+    compatible: [cinematic-semi-painterly, graphic-poster]
+  - id: optical-bokeh
+    name: 光学散景
+    compatible: [cinematic-semi-painterly, airy-backlit-anime]
+  - id: paper-grain
+    name: 纸张颗粒
+    compatible: [graphic-poster, clean-anime-production]

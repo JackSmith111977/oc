@@ -1,0 +1,13 @@
+interface:
+  display_name: oc illustration director
+  short_description: 消费 OC Character Designer v3.1 交接包，将已固化角色转化为身份稳定的单张或系列插画。负责叙事、角色演出、镜头构图、场景、光色、画风、模型提示词、连续性和生成
+    QA；不得重新定义人体与五官根本。
+  icon_small: assets/icon.svg
+  icon_large: assets/icon.svg
+policy:
+  products:
+  - chatgpt
+  - codex
+  - api
+  - atlas
+  allow_implicit_invocation: true

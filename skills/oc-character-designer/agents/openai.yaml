@@ -1,0 +1,14 @@
+interface:
+  display_name: oc character designer
+  short_description: Build and persist an original character through concept-guided
+    staged question batches, body/face Root Canon, strong references, approved variants,
+    landscape setting sheets, and a file-backed character bible.
+  icon_small: assets/icon.svg
+  icon_large: assets/icon.svg
+policy:
+  products:
+  - chatgpt
+  - codex
+  - api
+  - atlas
+  allow_implicit_invocation: true

@@ -1,0 +1,14 @@
+package: oc-character-designer
+version: 3.1.2
+modules:
+  interview: references/staged-interview.md
+  question_bank: references/questionnaire.md
+  canon: references/body-face-canon.md
+  persistence: references/filesystem-persistence.md
+  publication: references/character-bible-content-design.md
+  prompt_compilation: references/prompt-templates.md
+contracts:
+  canon_schema: schemas/oc-canon-v3.1.schema.json
+  question_batch: schemas/question-batch.schema.json
+  answer_batch: schemas/answer-batch.schema.json
+  sheet_page: schemas/sheet-page.schema.json

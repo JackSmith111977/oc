@@ -1,0 +1,120 @@
+{
+  "schema_version": "3.1",
+  "meta": {
+    "id": "sample-oc",
+    "name": "示例角色",
+    "revision": 0,
+    "created_at": "",
+    "updated_at": ""
+  },
+  "root_canon": {
+    "identity": {
+      "one_sentence_hook": null,
+      "world_role": null,
+      "species": null,
+      "apparent_age": null,
+      "gender_presentation": null
+    },
+    "body_core": {
+      "height_cm": null,
+      "height_range_cm": null,
+      "height_impression": null,
+      "head_body_ratio": null,
+      "silhouette": null,
+      "shoulder_width": null,
+      "ribcage": null,
+      "waist": null,
+      "pelvis": null,
+      "limb_proportions": null,
+      "neck": null,
+      "hands": null,
+      "feet": null,
+      "body_composition": null,
+      "curve_language": null,
+      "neutral_posture": null,
+      "center_of_gravity": null,
+      "measurements": {
+        "mode": "descriptive",
+        "shoulder_width_cm": null,
+        "chest": null,
+        "waist": null,
+        "hip": null,
+        "inseam_cm": null
+      }
+    },
+    "face_core": {
+      "head_shape": null,
+      "face_shape": null,
+      "forehead": null,
+      "cheekbones": null,
+      "jawline": null,
+      "chin": null,
+      "eyes": {},
+      "brows": {},
+      "nose": {},
+      "mouth": {},
+      "ears": {},
+      "skin": {},
+      "profile_risks": []
+    },
+    "identity_details": {
+      "must_keep": [],
+      "subtle_signatures": [],
+      "asymmetries": [],
+      "common_drift_risks": []
+    }
+  },
+  "strong_reference": {
+    "hair": {
+      "default_style": null,
+      "allowed_variants": [],
+      "forbidden_changes": []
+    },
+    "costume": {
+      "default_outfit": null,
+      "allowed_variants": [],
+      "forbidden_changes": []
+    },
+    "palette_accessories": {
+      "palette": [],
+      "signature_accessories": [],
+      "allowed_removals": [],
+      "forbidden_omissions": []
+    }
+  },
+  "variants": {
+    "hairstyles": [],
+    "outfits": [],
+    "expressions": [],
+    "states": [],
+    "scenes": []
+  },
+  "presentation": {
+    "art_direction": null,
+    "rendering": null,
+    "camera": null,
+    "lighting": null,
+    "background": null,
+    "effects": null
+  },
+  "production_spec": {
+    "intended_use": [],
+    "requested_pages": [],
+    "aspect_ratio": "16:9",
+    "annotation_language": "zh-CN",
+    "target_model": null,
+    "clean_asset_first": true,
+    "exports": [
+      "PDF",
+      "PNG"
+    ]
+  },
+  "consistency_lock": [],
+  "qa": {
+    "unresolved": [],
+    "contradictions": [],
+    "likely_failures": [],
+    "generation_order": []
+  },
+  "extensions": {}
+}

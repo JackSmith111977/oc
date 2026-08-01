@@ -1,0 +1,126 @@
+# 港城雨夜主视觉
+
+- Project revision: 1
+- Character: 雾岛澪
+- Source revision: 0
+
+## Root identity (read-only)
+{
+  "identity": {
+    "one_sentence_hook": "近未来港城的见习邮差，外冷内热且畏惧开放水面",
+    "world_role": "港城见习邮差",
+    "species": "人类",
+    "apparent_age": "18-20",
+    "gender_presentation": "女性"
+  },
+  "body_core": {
+    "height_cm": 168,
+    "height_range_cm": null,
+    "height_impression": "中等偏高",
+    "head_body_ratio": 7.2,
+    "silhouette": "修长匀称",
+    "shoulder_width": "中等偏窄",
+    "ribcage": null,
+    "waist": "轻度收束",
+    "pelvis": "中等",
+    "limb_proportions": "腿略长、手脚中等",
+    "neck": null,
+    "hands": null,
+    "feet": null,
+    "body_composition": "纤细但不骨感",
+    "curve_language": null,
+    "neutral_posture": "挺直中带轻微收肩",
+    "center_of_gravity": "中性略靠后",
+    "measurements": {
+      "mode": "descriptive",
+      "shoulder_width_cm": null,
+      "chest": null,
+      "waist": null,
+      "hip": null,
+      "inseam_cm": null
+    }
+  },
+  "face_core": {
+    "head_shape": "椭圆偏窄",
+    "face_shape": "偏长鹅蛋脸",
+    "forehead": "中等偏高",
+    "cheekbones": "低存在感",
+    "jawline": "柔和清晰",
+    "chin": "短而微尖",
+    "eyes": {
+      "shape": "平直杏眼、眼尾微下垂",
+      "size": "中等",
+      "spacing": "标准略宽",
+      "tilt": "微下垂",
+      "eyelid": null,
+      "iris_ratio": "中等偏大",
+      "pupil_highlight": null,
+      "lashes": null
+    },
+    "brows": {
+      "shape": "细直略弯",
+      "thickness": "细",
+      "peak": null,
+      "brow_eye_distance": "中等"
+    },
+    "nose": {
+      "bridge": "中低、窄",
+      "root": null,
+      "tip": "小巧圆润",
+      "wings": null,
+      "profile": "轻微直线"
+    },
+    "mouth": {
+      "width": "小到中",
+      "upper_lip": "薄",
+      "lower_lip": "中等",
+      "cupid_bow": null,
+      "corners": "默认平直、微笑时单侧先抬",
+      "default_state": null,
+      "teeth": "整齐、无明显虎牙"
+    },
+    "ears": {
+      "size": null,
+      "position": null,
+      "shape": null,
+      "tip": null
+    },
+    "skin": {
+      "value": null,
+      "undertone": null,
+      "texture": null
+    },
+    "profile_risks": []
+  },
+  "identity_details": {
+    "must_keep": [
+      "灰蓝虹膜内侧金色环",
+      "左眼下淡痣"
+    ],
+    "subtle_signatures": [],
+    "asymmetries": [],
+    "common_drift_risks": []
+  }
+}
+
+## Selected appearance
+{
+  "hair_state": "default",
+  "outfit_state": "default",
+  "accessory_state": "default",
+  "character_state": null
+}
+
+## Direction
+{
+  "deliverable": "角色主视觉",
+  "narrative": {},
+  "acting": {},
+  "camera": {},
+  "scene": {},
+  "lighting": {},
+  "style": {}
+}
+
+## Next
+Continue staged interview or compile when ready.

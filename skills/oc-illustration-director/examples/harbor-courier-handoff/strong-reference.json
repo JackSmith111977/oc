@@ -1,0 +1,44 @@
+{
+  "hair": {
+    "default_style": "深灰蓝中长发、低位半扎",
+    "length": "肩胛下",
+    "volume": "中等",
+    "hairline": null,
+    "parting": "左侧偏分",
+    "bang_groups": null,
+    "side_locks": null,
+    "back_mass": null,
+    "strand_direction": null,
+    "color": null,
+    "allowed_variants": [
+      "披发",
+      "低马尾"
+    ],
+    "forbidden_changes": [
+      "改为齐刘海",
+      "缩短至下巴以上"
+    ]
+  },
+  "costume": {
+    "default_outfit": "防水短斗篷与轻量邮差制服",
+    "silhouette": "上短下长、斜挎包形成对角线",
+    "layers": [],
+    "closures": [],
+    "attachment_points": [],
+    "materials": [],
+    "palette_ratio": null,
+    "allowed_variants": [
+      "雨天披肩",
+      "夏季短袖"
+    ],
+    "forbidden_changes": [
+      "删除邮差包连接逻辑"
+    ]
+  },
+  "palette_accessories": {
+    "palette": [],
+    "signature_accessories": [],
+    "allowed_removals": [],
+    "forbidden_omissions": []
+  }
+}

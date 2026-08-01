@@ -1,0 +1,17 @@
+{
+  "request_id": "CR-001",
+  "character_id": "雾岛澪",
+  "source_revision": 0,
+  "scope": "approved_variant",
+  "proposals": [
+    {
+      "path": "variants.outfits",
+      "value": {
+        "id": "formal-raincoat",
+        "name": "正式防雨礼装"
+      }
+    }
+  ],
+  "reason": "插画系列需要可复用的正式雨天服装",
+  "temporary_local_use": false
+}

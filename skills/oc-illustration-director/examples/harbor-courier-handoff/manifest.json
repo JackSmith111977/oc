@@ -1,0 +1,30 @@
+{
+  "handoff_version": "1.0",
+  "character_id": "雾岛澪",
+  "character_name": "雾岛澪",
+  "source_schema_version": "3.1",
+  "source_revision": 0,
+  "created_at": "2026-07-30T08:31:07.199269+00:00",
+  "files": {
+    "root_canon": {
+      "path": "root-canon.json",
+      "sha256": "4ed5a6aa96a6864d00014efb93903a51f61eacb5de0599c1470e3845a051d290"
+    },
+    "strong_reference": {
+      "path": "strong-reference.json",
+      "sha256": "ffcffa9be497efb5a517f1aa8bdad03c26c77b0d732af024c99bca20ed101ee5"
+    },
+    "approved_variants": {
+      "path": "approved-variants.json",
+      "sha256": "06dbc0181ea2a7b2d61abbefa29f37be9b09d25583dd4d48fe0cd3bac9a9a909"
+    },
+    "consistency_lock": {
+      "path": "consistency-lock.json",
+      "sha256": "05e7153a36e738bf79386217e8b2bbeccc8129454373cefedb48596e42e21a02"
+    },
+    "reference_manifest": {
+      "path": "reference-manifest.json",
+      "sha256": "3ff5f36c9d4b232659ddd88f4d22f3f01d313884e5a22190bda7a07a235333fa"
+    }
+  }
+}
